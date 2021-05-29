@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style> 
+			#caixa{
+			left: 50px;
+			top: 100px;
+			width: 350px;
+			height: 150px;
+			background-color: #ccc;
+			position: absolute;
+			animation-name: anim1;
+			animation-duration: 4s;
+			border-radius: 10px;
+			}
+			#caixa2{
+			left: 50px;
+			top: 300px;
+			width: 350px;
+			height: 150px;
+			background-color: #ccc;
+			position: absolute;
+			animation-name: anim2;
+			animation-duration: 4s;
+			border-radius: 10px;
+			}
+			#caixa3{
+			left: 50px;
+			top: 500px;
+			width: 350px;
+			height: 150px;
+			background-color: #ccc;
+			position: absolute;
+			animation-name: anim3;
+			animation-duration: 4s;
+			border-radius: 10px;
+			}
+			#txt{
+			width: 200px;
+			height: 100px; 
+			padding: 10px 10px;
+			float: left;
+			}
+			#caixaimg{
+			width: 100px;
+			height: 100px;
+			float: left;
+			padding: 10px;
+			border-radius: 50%;
+			}
+			#foto{
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			}
+			
+			 0% {opacity:0;}
+  100% {opacity:1;}
+			
+			@keyframes anim1 {
+			100%   {background-color: #ccc; left:50px; top:100px; opacity:1;}
+			0%  {background-color: #ccc; left:600px; top:100px; opacity:0;}
+			}
+			@keyframes anim2 {
+			100%   {background-color: #ccc; left:50px; top:300px; opacity:1;}
+			0%  {background-color: #ccc; left:600px; top:300px; opacity:0;}
+			}
+			@keyframes anim3 {
+			100%   {background-color: #ccc; left:50px; top:500px; opacity:1;}
+			0%  {background-color: #ccc; left:600px; top:500px; opacity:0;}
+			}
+		</style>
+	</head>
+	
+	<body>
+
+		<h1> About us </h1>
+		<hr>
+
+		<div id="caixa">
+			<div id="txt">
+				<p><b><i><h3>Insert Name</h3></i></b></p>
+				<p>Insert description right there</p>
+			</div>
+			<div id="caixaimg">
+				<img id="foto" src="anon.png">
+			</div>
+		</div>
+
+		<div id="caixa2">
+			<div id="txt">
+				<p><i><h3>Insert Name</h3></i></p>
+				<p>Insert description right there</p>
+			</div>
+			<div id="caixaimg">
+				<img id="foto" src="anon.png">
+			</div>
+		</div>
+		
+		<div id="caixa3">
+			<div id="txt">
+				<p><b><i><h3>Insert Name</h3></i></b></p>
+				<p>Insert description right there</p>
+			</div>
+			<div id="caixaimg">
+				<img id="foto" src="anon.png">
+			</div>
+		</div>
+
+
+</body>
+</html>
